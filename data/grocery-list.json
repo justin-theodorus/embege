@@ -1,0 +1,80 @@
+[
+    {
+      "id": "G-001",
+      "item_name": "bean sprouts",
+      "category": "vegetables",
+      "quantity": 200,
+      "unit": "g",
+      "status": "pending",
+      "priority": "high",
+      "added_by": "Gibrain",
+      "bought_by": null,
+      "added_date": "2026-03-13",
+      "notes": "For Pad Thai — pairs with expiring shrimp"
+    },
+    {
+      "id": "G-002",
+      "item_name": "eggs",
+      "category": "protein",
+      "quantity": 12,
+      "unit": "pieces",
+      "status": "low_stock",
+      "priority": "high",
+      "added_by": "Bach Lil",
+      "bought_by": null,
+      "added_date": "2026-03-12",
+      "notes": "Running low — only 10 left, need for weekend baking"
+    },
+    {
+      "id": "G-003",
+      "item_name": "tomatoes",
+      "category": "vegetables",
+      "quantity": 6,
+      "unit": "pieces",
+      "status": "bought",
+      "priority": "medium",
+      "added_by": "Bach Lil",
+      "bought_by": "Dad",
+      "added_date": "2026-03-11",
+      "notes": "Dad picked up from NTUC"
+    },
+    {
+      "id": "G-004",
+      "item_name": "rice noodles",
+      "category": "carbs",
+      "quantity": 400,
+      "unit": "g",
+      "status": "pending",
+      "priority": "medium",
+      "added_by": "Gibrain",
+      "bought_by": null,
+      "added_date": "2026-03-13",
+      "notes": "For laksa this weekend — laksa paste already in pantry"
+    },
+    {
+      "id": "G-005",
+      "item_name": "mushrooms",
+      "category": "vegetables",
+      "quantity": 200,
+      "unit": "g",
+      "status": "pending",
+      "priority": "low",
+      "added_by": "Dad",
+      "bought_by": null,
+      "added_date": "2026-03-12",
+      "notes": "For stir fry"
+    },
+    {
+      "id": "G-006",
+      "item_name": "greek yogurt",
+      "category": "dairy",
+      "quantity": 4,
+      "unit": "pieces",
+      "status": "pending",
+      "priority": "medium",
+      "added_by": "Bach Lil",
+      "bought_by": null,
+      "added_date": "2026-03-13",
+      "notes": "Current yogurt expiring Mar 17 — restock soon"
+    }
+  ]
