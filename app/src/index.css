@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EDEADE;
+  color: #1A1A14;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2DDD0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8C3B0;
+}
+
+/* Markdown prose overrides for agent messages */
+.prose-agent {
+  color: #1A1A14;
+  line-height: 1.6;
+}
+.prose-agent strong {
+  color: #1A1A14;
+  font-weight: 600;
+}
+.prose-agent ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+.prose-agent li {
+  margin: 0.25rem 0;
+}
+.prose-agent h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6B7C45;
+  margin: 0.75rem 0 0.25rem;
+}
