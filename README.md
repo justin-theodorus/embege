@@ -319,9 +319,4 @@ shelfsense/
 │   └── full_dataset.csv          # Raw recipe dataset
 ├── convert_recipes.py            # CSV → JSON recipe transformer
 ├── ingest_recipes.py             # Bulk ingest recipes into ES
-├── markdowns/
-│   ├── PRD.md                    # Product Requirements Document
-│   └── IMPLEMENTATION_PLAN.md    # Full implementation guide
-├── pitch-deck.md                 # Slide-by-slide pitch deck content
-└── presenter-script.md           # 4–5 minute presenter narration
 ```
